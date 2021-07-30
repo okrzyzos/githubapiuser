@@ -1,0 +1,36 @@
+body{
+  margin:0px;
+  padding:0px;
+}
+
+.navbar{
+  background-color: rgb(233,224,222);
+  margin:0;
+  padding:15px;
+  height:60px;
+}
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px O;
+
+}
+.search button{
+  margin-left: 15px;
+  padding: 10px;
+  background-color: gainsboro;
+  height: 40px;
+  border: none;
+  
+}
+input{
+  padding:10px;
+  border:1px solid grey;
+}
+.card{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
