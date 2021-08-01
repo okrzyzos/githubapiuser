@@ -1,3 +1,8 @@
+
+## PROJET GITHUBAPIUSER
+
+Create an input text in which as the user types in, launch a search against Github users and return a result list.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
