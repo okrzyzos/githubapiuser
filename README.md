@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installation
+***
+A little intro about the installation.
+```
+$ git clone https://github.com/okrzyzos/checkboxes.git
+$ cd ../path/to/the/file
+$ npm install
+$ npm start
+
 ## Available Scripts
 
 In the project directory, you can run:
