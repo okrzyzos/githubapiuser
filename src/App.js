@@ -3,6 +3,7 @@ import './App.css';
 import { Form, Card, Icon, Image } from 'semantic-ui-react';
 
 function App() {
+  // my data in the form of hooks
   const [name, setName] = useState('');
   const [avatar, setAvatar] = useState('');
   const [userInput, setUserInput] = useState('');
@@ -12,6 +13,8 @@ function App() {
 
 
   useEffect(() => {
+    // I declare an action with useffect which a lifecycle method
+    // I get an example of an API for a default avatar
 
     fetch('https://api.github.com/users/example')
       .then(res => res.json())
@@ -19,7 +22,7 @@ function App() {
         setData(data)
       })
   }, [])
-
+// I update my data
   const setData = ({ name, avatar_url, login, public_repos }) => {
     setName(name);
     setAvatar(avatar_url);
@@ -30,7 +33,7 @@ function App() {
   const handleSearch = (e) => {
     setUserInput(e.target.value);
   }
-
+// I get the users API with fetch
   const handleSubmit = () => {
     fetch(`https://api.github.com/users/${userInput}`)
       .then(res => res.json())
