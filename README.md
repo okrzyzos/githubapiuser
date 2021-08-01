@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ***
 A little intro about the installation.
 ```
-$ git clone https://github.com/okrzyzos/checkboxes.git
+$ git clone https://github.com/okrzyzos/githubapiuser.git
 $ cd ../path/to/the/file
 $ npm install
 $ npm start
